@@ -1,5 +1,5 @@
 <!--hide-->
-# Todo List API in Python Flask
+# To Do List API in Python Flask
 <a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
 <!--endhide-->
 
@@ -33,24 +33,24 @@ DELETE /todos/<int:position>
 
 ### GET /todos
 
-Will return the list of all todos like this:
+Will return the list of all to-dos like this:
 
 ```javascript
 [
     {
         "done": true,
-        "label": "Sample Todo 1"
+        "label": "Sample To-do 1"
     },
     {
         "done": true,
-        "label": "Sample Todo 2"
+        "label": "Sample To-do 2"
     }
 ]
 ```
 
 ### POST /todos
 
-This will add a new todo to the list with the following request body:
+This will add a new to-do to the list with the following request body:
 
 ```javascript
 {
@@ -59,7 +59,7 @@ This will add a new todo to the list with the following request body:
 }
 ```
 
-And return the updated list of todos.
+And return the updated list of to-dos.
 
 ### DELETE /todos/<int:position>
 
